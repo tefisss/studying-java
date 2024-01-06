@@ -16,3 +16,5 @@ O código fonte é copilado para Bytecode (representação intermediaria já ver
 - **Módulo** = Agrupamento lógico de pacotes relacionados.
 - **Aplicação** = O programa em si / agrupamento de módulos.
 
+### Criando uma classe
+ - Marcar a opção **public static void main (String[] args)**, é o que torna a classe um programa executável.
