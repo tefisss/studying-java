@@ -19,7 +19,7 @@ O código fonte é copilado para Bytecode (representação intermediaria já ver
 ### Criando uma classe
  - Marcar a opção **public static void main (String[] args)**, é o que torna a classe um programa executável.
 
-## Sintaxe básica
+### Sintaxe básica
 ```java
 public class Main {
     public static void main(String[] args) {
