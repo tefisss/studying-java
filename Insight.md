@@ -11,11 +11,8 @@ Abordagem híbrida entre COMPILAÇÃO e INTERPRETAÇÃO.
 O código fonte é copilado para Bytecode (representação intermediaria já verificada) que é executado pela **maquina virtual** específica do OS.  
 
 ## Estrutura
-- Classe
-- Pacote (Package)
-Agrupamento lógico de classes relacionadas (tipos de classes).
-- Módulo
-Agrupamento lógico de pacotes relacionados.
-- Aplicação
-O programa em si / agrupamento de módulos.
+- **Classe**
+- **Pacote** (Package) = Agrupamento lógico de classes relacionadas (tipos de classes).
+- **Módulo** = Agrupamento lógico de pacotes relacionados.
+- **Aplicação** = O programa em si / agrupamento de módulos.
 
