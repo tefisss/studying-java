@@ -13,9 +13,9 @@ O código fonte é copilado para Bytecode (representação intermediaria já ver
 ## Estrutura
 - Classe
 - Pacote (Package)
-    Agrupamento lógico de classes relacionadas (tipos de classes).
+Agrupamento lógico de classes relacionadas (tipos de classes).
 - Módulo
-    Agrupamento lógico de pacotes relacionados.
+Agrupamento lógico de pacotes relacionados.
 - Aplicação
-    O programa em si / agrupamento de módulos.
+O programa em si / agrupamento de módulos.
 
