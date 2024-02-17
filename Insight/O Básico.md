@@ -1,6 +1,6 @@
-# Insight
+# O Básico
 
-## Edições
+### Edições
 
 - Java ME (Java Micro Edition) = dispositivos embarcados e móveis
 - Java SE (Java Standard Edition) = core - desktops e servidores (MAIS UTILIZADO)
