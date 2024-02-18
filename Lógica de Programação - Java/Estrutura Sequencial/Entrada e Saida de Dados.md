@@ -45,6 +45,22 @@ public class Main {
 }
 ```
 
+O código abaixo utiliza o ___Locale__ e o __DecimalFormat__ para garantir que números decimais sejam lidos e exibidos corretamente, independentemente da configuração de idioma da IDE
+
+```java
+Scanner sc = new Scanner(System.in).useLocale(Locale.forLanguageTag("pt-BR")); // Define o Scanner para usar o padrão brasileiro, para que números decimais sejam lidos com vírgula.
+DecimalFormat df = new DecimalFormat("#,##0.00"); //Define o DecimalFormat para formatar números com vírgula como separador decimal e duas casas decimais.
+System.out.println("Informe o número de horas trabalhadas: ");
+hora = sc.nextDouble();
+System.out.println("Informe o valor que recebe por hora: ");
+salHora = sc.nextDouble();
+
+double salarioTotal = hora * salHora;
+
+System.out.println("Salário: " + df.format(salarioTotal)); //  assegura que o número será exibido com vírgula como separador decimal e duas casas decimais
+```
+
+
 ### Concatenação 
 
 ```java
@@ -66,7 +82,7 @@ import java.util.Scanner; // necessário colocar no inicio do programa
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in); \\ associa o objeto Scanner ao console
+        Scanner sc = new Scanner (System.in); // associa o objeto Scanner ao console
         String x;
 
         System.out.println("Digite:");
