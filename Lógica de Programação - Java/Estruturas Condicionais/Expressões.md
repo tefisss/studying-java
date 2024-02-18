@@ -16,8 +16,8 @@
 - ! = NÃO (Inverte a condição)
 
 ### Operadores de atribuição cumulativa
-|Operadores de Atribuição Cumulativa|
-|--------|--------------------------|
+
+|-----------------------------------|
 |a += b; | a = a + b;               |
 |a -= b; | a = a - b;               |
 |a *= b; | a = a * b;               |
