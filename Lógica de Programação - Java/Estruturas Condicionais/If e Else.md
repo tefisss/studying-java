@@ -1,7 +1,4 @@
-### Conceito da Estrutura Condicional
-Estrutura de controle que define que um certo bloco de comandos só é executado dependendo de uma condição
-
-### Sintaxe
+## Sintaxe IF-ELSE
 
 ```java
 if(<condição>){
@@ -19,14 +16,7 @@ else {
 O **else if** pode ser usado no encadeamento de estruturas condicionais, funcionaria assim:
 
 ```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Que horas são?");
+ System.out.println("Que horas são?");
         int hora = sc.nextInt();
 
         if(hora < 12){
@@ -38,6 +28,28 @@ public class Main {
         }
 
         sc.close();
-        }
-    }
 ```
+## Expressão Condicional Ternária
+Estrutura opcional ao if-else quando se deseja decidir um valor com base em uma condição
+
+### Sintaxe
+```java
+(condição) ? valor_se_V : valor_se_F
+```
+
+**Exemplo**
+```java
+// usando o IF-ELSE normalmente
+double preco = 34.5;
+double desconto; 
+if(preco < 20.0){
+    desconto = preco * 0.1;
+}else{
+    desconto = preco * 0.5;
+}
+// usando a expressão ternária
+double preco = 34.5;
+double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.5;
+```
+
+

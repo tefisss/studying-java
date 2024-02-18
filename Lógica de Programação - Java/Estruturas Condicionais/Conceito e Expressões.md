@@ -1,3 +1,6 @@
+## Conceito da Estrutura Condicional
+Estrutura de controle que define que um certo bloco de comandos só é executado dependendo de uma condição
+
 ### Expressões comparativas
 
 |Operador|Significado     |
