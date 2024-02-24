@@ -12,3 +12,16 @@ while(condicão){
 
 - Condição V: executa e volta
 - Condição F: pula fora do loop
+
+```java
+int x = sc.nextInt();
+        int soma = 0;
+
+        while (x != 0){
+            soma += x;
+            x = sc.nextInt();
+        }
+        System.out.println(soma);
+
+        sc.close();
+```
