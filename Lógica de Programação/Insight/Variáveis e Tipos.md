@@ -34,7 +34,7 @@ double altura = 1.50;
 
 **String** = seria uma cadeia de caracteres
 
-**Funções interessantes de strings**
+### Funções interessantes de strings
 
 ```java
 String original = "teste TESTE test TEST       ";
@@ -47,6 +47,21 @@ String original = "teste TESTE test TEST       ";
         String s07 = original.replace("es", "xy"); // substitui uma sequência de strings por outra
         int i = original.indexOf("te"); // saber a primeira ocorrência
         int j = original.lastIndexOf("st"); // saber a última occorência
+```
+
+### Operação SPLIT
+
+Função que serve pra recortar strings.
+Criamos um vetor de strings onde cada parte recortada será uma posição do vetor, definimos também um separador conforme o exemplo abaixo: 
+
+```java
+        String s = "arroz feijão ovo";
+        String[] vect = s.split(" "); // definindo o separador das strings que serão armazenadas como parte do vetor criado
+
+        System.out.println(vect[0]); // arroz
+        System.out.println(vect[1]); // feijão
+        System.out.println(vect[2]); // ovo
+
 ```
 
 
