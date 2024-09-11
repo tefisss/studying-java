@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class teste {
+public class ExBasico {
 
 	public static void main(String[] args) {
 		String product1 = "Computer"; 
