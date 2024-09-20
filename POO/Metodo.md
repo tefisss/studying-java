@@ -1,4 +1,4 @@
-#Métodos
+# Métodos
 
 Uma forma bem mais prática de processar a área é, acrescentando também o método desse cálculo na classe de triângulos.
 
